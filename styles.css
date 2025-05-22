@@ -176,3 +176,11 @@ ul {
     color: #F9FAF8;
     font-weight: 600;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
