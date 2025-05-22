@@ -2,6 +2,7 @@
 
 html {
     font-family: Roboto, sans-serif;
+    background-color: #F9FAF8;
 }
 
 body {
@@ -82,6 +83,36 @@ ul {
     align-items: center;
 }
 
-.random {
+.section2 {
     background-color: #F9FAF8;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 16px 96px 16px;
+    gap: 24px;
+}
+
+.random h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.box-and-text-container {
+    display: flex;
+    gap: 48px;
+}
+
+.image-box {
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    height: 150px;
+    width: 150px;
+}
+
+.box-and-text {
+    width: 150px;
+    text-align: center;
 }
