@@ -14,8 +14,14 @@ body {
     background-color: #1F2937;
 }
 
-.header, .hero, .random {
+.header, .hero, .random, .cta {
     max-width: 950px;
+    padding: 0px 24px;
+    margin: auto;
+}
+
+.quote {
+    max-width: 750px;
     padding: 0px 24px;
     margin: auto;
 }
@@ -26,13 +32,13 @@ body {
     align-items: center;
 }
 
-.header h2 {
+.header h2, .cta-left h1 {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
 }
 
-.header ul li, .hero-left p, .hero-right {
+.header ul li, .hero-left p, .hero-right, .cta-left p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -115,4 +121,58 @@ ul {
 .box-and-text {
     width: 150px;
     text-align: center;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+.quote h1 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote p {
+    font-weight: bold;
+    text-align: right;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 48px 100px;
+    margin: 48px auto;
+}
+
+.cta-left {
+    flex: 5 1 auto;
+}
+
+.cta-left * {
+    margin: 0;
+    padding: 0;
+}
+
+.cta-right{
+    flex: 1 1 auto;
+}
+
+.cta-right button {
+    border: 2px solid #F9FAF8;
+    background-color: transparent;
+    padding: 8px 24px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: 600;
 }
